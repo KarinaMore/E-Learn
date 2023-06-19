@@ -1,0 +1,71 @@
+@media screen and (min-width: 900px){
+    .logodesign{
+        width: 13%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .logodesign{
+        width: 40%;
+    }
+}
+
+.para{
+    text-align: justify;
+}
+
+.card-body{
+    text-align: justify;
+
+}
+
+.cardimg{
+    border-bottom: 5px solid gray;
+}
+
+.shadow{
+    box-shadow: 0 0 10px navy;
+    /* transition: transform 1.2s; */
+    transition: all 1s ease;
+}
+
+.shadow:hover{
+    background-color:rgb(160, 238, 168);
+    transform: scale(1.1);
+}
+
+.shadoweffect:hover{
+    margin-top: -20px;
+}
+
+.shadoweffect{
+    box-shadow: 0 0 5px navy;
+    transition: all 0.5s ease;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.font{
+    text-shadow: 2px 1px navy;
+}
+
+.topbg{
+    background-image: url(./Images/bg4.webp);
+    background-size: cover;
+}
+
+.txdoc{
+    text-decoration: none;
+    box-shadow: 0 5px 30px 0 rgba(86, 90, 207, 0.3)
+}
+
+.fontdeg{
+    font-family: cageorgia;
+    font-size:xx-large;
+    font-weight: bold;
+    color: rgb(4, 4, 90);
+    text-shadow: 0 0 1px;
+}
